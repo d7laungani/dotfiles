@@ -176,3 +176,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " Run npm start from editor
 command R !npm start %
+
+" Fix indentation issue when pasting
+" :set paste
